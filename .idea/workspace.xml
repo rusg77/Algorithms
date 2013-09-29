@@ -5,12 +5,13 @@
     <ignored path="Algorithms.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Tree.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380404828996" ignored="false" />
-    <file path="/Main.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380465916734" ignored="false" />
+    <file path="/Main.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380492185516" ignored="false" />
     <file path="/BinarySearchTree.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380404827979" ignored="false" />
     <file path="/.gitignore" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380405014277" ignored="false" />
     <file path="/Node.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380406618262" ignored="false" />
     <file path="/LinkedList.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380462000895" ignored="false" />
     <file path="/Quiz.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380467328068" ignored="false" />
+    <file path="/MergeSort.java" changelist="36039c26-1a66-4d4c-afa7-ebb9aa833319" time="1380492581909" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -62,6 +62,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -74,7 +76,16 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sorts/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="49" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,25 +94,7 @@
       <file leaf-file-name="Quiz.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/qiuz/Quiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="16" selection-start="1097" selection-end="1097" vertical-scroll-proportion="1.3636364">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="110" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedList/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="23" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.44573644">
               <folding />
             </state>
           </provider>
@@ -123,16 +116,16 @@
         <option value="$PROJECT_DIR$/src/linkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/linkedList/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/qiuz/Quiz.java" />
+        <option value="$PROJECT_DIR$/src/sorts/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/sorts/MergeSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="22" />
-    <option name="width" value="1420" />
-    <option name="height" value="816" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -214,17 +206,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
@@ -328,28 +322,28 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1420" height="816" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.67241377" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24605452" sideWeight="0.4937656" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5062344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32668328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -413,18 +407,38 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sorts/InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.1438849">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorts/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarySearchTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.06818182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/binarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.95454544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="14" selection-end="14" vertical-scroll-proportion="0.03409091" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorts/BinaryHeapSort.java">
@@ -434,51 +448,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarySearchTree/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/sorts/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.06818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/binarySearchTree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="9" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.95454544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="14" selection-end="14" vertical-scroll-proportion="0.03409091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.13636364">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="110" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="41" column="110" selection-start="1125" selection-end="1125" vertical-scroll-proportion="1.3977273" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="151" selection-end="151" vertical-scroll-proportion="0.3068182" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorts/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="49" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/qiuz/Quiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="16" selection-start="1097" selection-end="1097" vertical-scroll-proportion="1.3636364">
+        <state line="23" column="36" selection-start="709" selection-end="709" vertical-scroll-proportion="0.44573644">
           <folding />
         </state>
       </provider>

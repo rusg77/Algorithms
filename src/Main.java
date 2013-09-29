@@ -1,11 +1,11 @@
-import qiuz.Quiz;
+import sorts.MergeSort;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] x = {2, 3, 8, 8, 9, 10, 15};
-        int[] y = {0, 1, 4, 8, 11, 16};
-        int[] z = {-3, 2, 5, 6, 7, 8};
-        System.out.println(Quiz.findElementInArrays(x, y, z));
+        int[] x = {3, 8, 5, 7, 1, 8, 0, 15, 3, 19};
+        System.out.println(x);
+        MergeSort.sort(x, 0, 9);
+        System.out.println(x);
     }
 }
